@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="bn">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Dharmanagar Directory Service — ধর্মনগর ও আশপাশের এলাকার পরিষেবা ও ব্যবসার যোগাযোগ নির্দেশিকা।">
+<title>DHARMANAGAR DIRECTORY SERVICE</title>
+<style>
+:root{--green:#08745c;--deep:#075642;--yellow:#ffdf19;--red:#e51d2a;--blue:#102b68;--bg:#f4f8fb}
+*{box-sizing:border-box}body{margin:0;font-family:Arial,"Noto Sans Bengali",sans-serif;background:var(--bg);color:#14213d}
+header{background:linear-gradient(110deg,#006b50,#008b67);color:#fff;text-align:center;padding:14px 12px 12px;border-bottom:5px solid var(--yellow)}
+header h1{font-size:clamp(22px,4vw,48px);line-height:1.1;margin:0;color:#ffed00;text-shadow:2px 3px 1px #173b20;font-weight:900}
+header p{margin:8px auto 0;font-size:clamp(13px,2vw,21px);font-weight:bold;border:1px solid #30d6a7;border-radius:30px;display:inline-block;padding:4px 18px}
+main{max-width:1250px;margin:auto;padding:12px}
+.searchbar{display:flex;gap:8px;margin:0 0 12px}.searchbar input{width:100%;min-width:0;border:1px solid #cbd5e1;border-radius:16px;background:#fff;padding:14px 16px;font-size:17px;box-shadow:0 1px 3px #0001}
+nav{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:14px}
+nav a{flex:1 1 auto;text-align:center;text-decoration:none;color:#073d31;background:#fff;border:1px solid #cbd5e1;border-radius:13px;padding:10px 12px;font-weight:bold}
+nav a:first-child,nav a:nth-child(3){background:var(--green);color:#fff}
+.section{border:1px solid #e11d2e;border-radius:17px;overflow:hidden;background:#fff;margin-bottom:13px}
+.section-title{background:#ed1728;color:white;display:flex;align-items:center;justify-content:space-between;gap:10px;padding:9px 14px;font-size:clamp(18px,2.6vw,29px);font-weight:900}
+.section-title small{font-size:14px;font-weight:normal}
+.grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:7px;padding:8px}
+.category{display:flex;align-items:center;gap:12px;min-height:82px;padding:10px;border-radius:13px;border:1px solid #dbe5f0;text-decoration:none;color:var(--blue);cursor:pointer;text-align:left;background:#edf6ff}
+.category:nth-child(4n+2){background:#fff8df}.category:nth-child(4n+3){background:#ffedf0}.category:nth-child(4n){background:#e9f9ec}
+.emoji{font-size:clamp(29px,4vw,46px);width:62px;flex:0 0 62px;text-align:center}
+.category strong{display:block;font-size:clamp(15px,2vw,23px);line-height:1.25}.category span.sub{display:block;color:#40516b;font-size:14px;margin-top:4px}
+.add-category{grid-column:1/-1;background:#e7f8e9!important}
+.banner{background:#ffe54d;border:1px solid #f4b400;border-radius:15px;padding:12px 16px;display:flex;align-items:center;gap:14px;margin:12px 0;color:#a4140c}
+.banner .big{font-size:clamp(26px,4vw,44px);font-weight:900}.banner p{margin:3px 0;color:#4d3900}.banner a{margin-left:auto;background:#e51d2a;color:white;padding:11px 14px;border-radius:10px;text-decoration:none;font-weight:bold;white-space:nowrap}
+.emergency .section-title{background:#fbe9ed;color:#cf101d}.emergency .grid{grid-template-columns:repeat(4,minmax(0,1fr))}
+.emergency-card{display:flex;align-items:center;gap:10px;background:#fff1f2;border-radius:9px;padding:14px;color:#14213d;font-weight:bold;min-height:78px}.emergency-card .emoji{width:44px;flex-basis:44px;font-size:32px}
+.notice{background:#fff8d9;border:1px solid #f1d56a;border-radius:14px;padding:13px 16px;margin:12px 0;display:flex;gap:12px;align-items:center}.notice h2{margin:0 0 3px;color:#8b3410}.notice p{margin:0}
+.info{background:#e4f2ff;border:1px solid #9ecaf5;border-radius:14px;padding:14px 16px;margin:12px 0;line-height:1.7}
+.results{padding:14px}.result{padding:12px;border-bottom:1px solid #e2e8f0}.result:last-child{border-bottom:0}.result strong{font-size:18px}.muted{color:#64748b}.empty{padding:18px;color:#64748b;text-align:center}
+footer{text-align:center;padding:20px 10px;color:#64748b;font-size:13px}
+button{font:inherit}
+@media(max-width:650px){main{padding:9px}.grid{gap:5px;padding:6px}.category{gap:6px;padding:8px;min-height:76px}.emoji{width:38px;flex-basis:38px;font-size:29px}.category strong{font-size:14px}.category span.sub{font-size:11px}.section-title{padding:8px;font-size:18px}.section-title small{font-size:11px}.emergency .grid{grid-template-columns:repeat(2,minmax(0,1fr))}.emergency-card{min-height:72px;padding:10px 8px}.emergency-card .emoji{width:34px;flex-basis:34px;font-size:27px}.banner{gap:8px;padding:10px}.banner .big{font-size:23px}.banner p{font-size:12px}.banner a{font-size:12px;padding:9px}.notice{align-items:flex-start}.notice p{font-size:13px}nav a{font-size:13px;padding:9px 7px}}
+</style>
+</head>
+<body>
+<header>
+  <h1>DHARMANAGAR DIRECTORY SERVICE</h1>
+  <p>ইহা একটি অনলাইন তথ্য ভাণ্ডার পরিষেবা মাধ্যম</p>
+</header>
+<main>
+  <div class="searchbar"><input id="search" type="search" placeholder="🔎 নাম, বিভাগ বা ঠিকানা দিয়ে খুঁজুন..." aria-label="পরিষেবা খুঁজুন"></div>
+  <nav>
+    <a href="#home">⌂ হোম</a><a href="#birthday">🎂 জন্মদিনের শুভেচ্ছা</a><a href="#services">☷ স্থানীয় পরিষেবা</a><a href="#offers">🔖 বিশেষ অফার</a><a href="#emergency">🚨 জরুরি বার্তা</a><a href="#feedback">💬 মতামত ও পরামর্শ</a>
+  </nav>
+  <section class="section" id="services">
+    <div class="section-title"><span>▣ Local Services (স্থানীয় পরিষেবা)</span><small>📍 ধর্মনগর ও আশপাশের এলাকার পরিষেবা</small></div>
+    <div class="grid" id="categories">
+      <button class="category" data-cat="হাসপাতাল, ক্লিনিক ও ফার্মেসি"><span class="emoji">🏥</span><span><strong>হাসপাতাল, ক্লিনিক ও ফার্মেসি</strong><span class="sub">Hospital, Clinic &amp; Pharmacy</span></span></button>
+      <button class="category" data-cat="কোচিং সেন্টার"><span class="emoji">📚</span><span><strong>কোচিং সেন্টার</strong><span class="sub">Coaching Centre</span></span></button>
+      <button class="category" data-cat="প্রাইভেট স্কুল"><span class="emoji">🏫</span><span><strong>প্রাইভেট স্কুল</strong><span class="sub">Private School</span></span></button>
+      <button class="category" data-cat="প্রাইভেট টিউটর"><span class="emoji">👨‍🏫</span><span><strong>প্রাইভেট টিউটর</strong><span class="sub">Private Tutor</span></span></button>
+      <button class="category" data-cat="জুয়েলারি"><span class="emoji">💍</span><span><strong>জুয়েলারি</strong><span class="sub">Jewellery</span></span></button>
+      <button class="category" data-cat="হোটেল ও রেস্টুরেন্ট"><span class="emoji">🍽️</span><span><strong>হোটেল ও রেস্টুরেন্ট</strong><span class="sub">Hotel &amp; Restaurant</span></span></button>
+      <button class="category" data-cat="বিবাহ ভবন, ডেকোরেটর্স ও ক্যাটারিং"><span class="emoji">💒</span><span><strong>বিবাহ ভবন, ডেকোরেটর্স ও ক্যাটারিং</strong><span class="sub">Marriage Hall, Decorators &amp; Caterers</span></span></button>
+      <button class="category" data-cat="অ্যাডভোকেট ও দলিল লেখক"><span class="emoji">⚖️</span><span><strong>অ্যাডভোকেট ও দলিল লেখক</strong><span class="sub">Advocate &amp; Deed Writer</span></span></button>
+      <button class="category" data-cat="বিমা"><span class="emoji">🛡️</span><span><strong>বিমা</strong><span class="sub">Insurance</span></span></button>
+      <button class="category" data-cat="ইলেকট্রিশিয়ান, রাজমিস্ত্রি, কাঠমিস্ত্রি ও শ্রমিক"><span class="emoji">🧱</span><span><strong>ইলেকট্রিশিয়ান, রাজমিস্ত্রি, কাঠমিস্ত্রি ও শ্রমিক</strong><span class="sub">Electrician, Mason, Carpenter &amp; Labour</span></span></button>
+      <button class="category" data-cat="দোকান ও মার্কেট"><span class="emoji">🛍️</span><span><strong>ধর্মনগর ও আশপাশের এলাকার দোকান</strong><span class="sub">Shop &amp; Market</span></span></button>
+      <button class="category" data-cat="অন্যান্য পরিষেবা"><span class="emoji">•••</span><span><strong>অন্যান্য পরিষেবা</strong><span class="sub">Other Services</span></span></button>
+      <button class="category add-category" data-cat="নিজে থেকে এড করুন"><span class="emoji">➕</span><span><strong>নিজে থেকে এড করুন</strong><span class="sub">আপনার পরিষেবার তথ্য যোগ করুন</span></span></button>
+    </div>
+  </section>
+<div class="banner" id="offers"><div><div class="big">বিজ্ঞাপন</div><p>এখানে আপনার বিজ্ঞাপন দিন</p><p>যাচাই ও অনুমোদনের পর প্রকাশ হবে</p></div><span style="font-size:38px">📣</span><a href="#feedback">বিজ্ঞাপন দিন ›</a></div>
+  <section class="section emergency" id="emergency">
+    <div class="section-title"><span>🚨 জরুরি বার্তা (Emergency Service)</span><small>প্রকাশের আগে নম্বর যাচাই করা হবে</small></div>
+    <div class="grid">
+      <div class="emergency-card"><span class="emoji">🏛️</span><span>জেলা সহায়তা কেন্দ্র<br><span class="muted">নম্বর যাচাই বাকি</span></span></div>
+      <div class="emergency-card"><span class="emoji">👮</span><span>জেলা পুলিশ<br><span class="muted">নম্বর যাচাই বাকি</span></span></div>
+      <div class="emergency-card"><span class="emoji">🏢</span><span>মহকুমা প্রশাসক<br><span class="muted">নম্বর যাচাই বাকি</span></span></div>
+      <div class="emergency-card"><span class="emoji">🚑</span><span>অ্যাম্বুলেন্স<br><span class="muted">নম্বর যাচাই বাকি</span></span></div>
+    </div>
+  </section>
+<div class="notice"><span style="font-size:34px">📄</span><div><h2>নিয়মাবলী</h2><p>পরিষেবা প্রদানকারী ও পরিষেবা গ্রহণকারীদের জন্য নিয়ম ও নির্দেশনা প্রকাশ করা হবে।</p></div></div>
+  <div class="info">ℹ️ <strong>দায়বদ্ধতার ঘোষণা:</strong> Dharmanagar Directory Service একটি স্বাধীন, ব্যক্তিগত উদ্যোগে পরিচালিত অনলাইন তথ্যভাণ্ডার। এটি কোনো সরকারি পোর্টাল নয় এবং পরিষেবা প্রদানকারী ও গ্রাহকের মধ্যে যোগাযোগের মাধ্যম হিসেবে কাজ করে। তথ্য ব্যবহারের আগে নিজে যাচাই করুন।</div>
+</main>
+<footer>© Dharmanagar Directory Service · তথ্য যাচাই করে ব্যবহার করুন।</footer>
+<script>
+const search=document.getElementById('search');
+const resultBox=document.getElementById('results');
+const count=document.getElementById('resultCount');
+let selectedCategory='';
+document.querySelectorAll('[data-cat]').forEach(btn=>btn.addEventListener('click',()=>{
+  selectedCategory=btn.dataset.cat;
+  document.getElementById('directoryResults').scrollIntoView({behavior:'smooth'});
+  resultBox.innerHTML='<div class="empty">“'+escapeHtml(selectedCategory)+'” বিভাগের অনুমোদিত তথ্য দেখাতে Google Sheet-এর সংযোগ যুক্ত করা বাকি।</div>';
+  count.textContent='সংযোগ বাকি';
+}));
+search.addEventListener('input',()=>{
+  const q=search.value.trim();
+  if(!q){resultBox.innerHTML='<div class="empty">অনুমোদিত তালিকা দেখাতে Google Sheet-এর সংযোগ যুক্ত করা বাকি।</div>';count.textContent='সংযোগ বাকি';return;}
+  resultBox.innerHTML='<div class="empty">“'+escapeHtml(q)+'” খোঁজার জন্য Google Sheet-এর সংযোগ যুক্ত করা বাকি।</div>';
+  count.textContent='সংযোগ বাকি';
+});
+function escapeHtml(s){return s.replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));}
+</script>
+</body>
+</html>
